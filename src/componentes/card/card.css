@@ -1,0 +1,65 @@
+:root{
+    --R:rgb(132, 132, 132);
+    --UR:rgb(200, 140, 1);;
+}
+.textUR{
+  font-family: 'PT Serif', serif;
+  font-weight:800;
+  color: rgb(199, 199, 195);
+  background-color: rgba(255, 159, 5, 0.7);
+  border-radius: 50%;
+}
+.textSSR{
+  font-family: 'PT Serif', serif;
+  font-weight:800;
+  color: rgb(255, 221, 0);
+  background-color: rgba(255, 159, 5, 0.7);
+  border-radius: 50%;
+}
+.textSR{
+  font-family: 'PT Serif', serif;
+  font-weight:800;
+  color: rgb(93, 0, 74);
+  background-color: rgba(255, 159, 5, 0.7);
+  border-radius: 50%;
+}
+.textR{
+  font-family: 'PT Serif', serif;
+  font-weight:800;
+  color: rgb(44, 0, 155);
+  background-color: rgba(255, 159, 5, 0.7);
+  border-radius: 50%;
+}
+.cards{
+  grid-template-columns: repeat(7,1fr);
+}
+@media screen and (max-width:1130px) {
+  .cards{
+    grid-template-columns: repeat(6,1fr);
+  }
+  
+}
+@media screen and (max-width:950px) {
+  .cards{
+    grid-template-columns: repeat(5,1fr);
+  }
+  
+}
+@media screen and (max-width:800px) {
+  .cards{
+    grid-template-columns: repeat(4,1fr);
+  }
+  
+}
+@media screen and (max-width:650px) {
+  .cards{
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+}
+@media screen and (max-width:480px) {
+  .cards{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}

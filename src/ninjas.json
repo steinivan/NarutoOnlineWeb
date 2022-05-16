@@ -1,0 +1,297 @@
+{
+    "ninjas":[
+        {
+            "id":0,
+            "ninja":"naruto",
+            "name":"Naruto Sabio six-path",
+            "power":13000,
+            "category":"UR",
+            "img":"narutoUr-1.jpg",
+            "star":1
+        },
+        {
+            "id":1,
+            "ninja":"kuramaNaruto",
+            "name":"Kurama Naruto",
+            "power":13000,
+            "category":"UR",
+            "img":"NarutoKuramaUR.png",
+            "star":2
+        },
+        {
+            "id":2,
+            "ninja":"kushina",
+            "name":"Kushina-Kurama",
+            "power":13000,
+            "category":"UR",
+            "img":"KushinaKuramaSSR.jpg",
+            "star":3
+        },
+        {
+            "id":3,
+            "ninja":"itachi",
+            "name":"Itachi Edo Tensei",
+            "power":13000,
+            "category":"UR",
+            "img":"ItachiEdoTenseiUR.jpg",
+            "star":4
+        },
+        {
+            "id":4,
+            "ninja":"kakashi",
+            "name":"Kakashi Susanoo",
+            "power":13000,
+            "category":"UR",
+            "img":"KakashiSusanooUR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"sasuke",
+            "name":"Sasuke Susanoo",
+            "power":12500,
+            "category":"UR",
+            "img":"sasukeUr-1.jpg",
+            "star":6,
+            "ability":[
+                {"1":"sasukeUr-2.png"}
+                    ]
+        },
+        {
+            "ninja":"itachi",
+            "name":"Itachi Susanoo",
+            "power":15000,
+            "category":"UR",
+            "img":"itachiUr-1.png",
+            "star":7
+        },
+        {
+            "ninja":"indra",
+            "name":"Indra Otsutsuki",
+            "power":15000,
+            "category":"UR",
+            "img":"IndraOtsutsukiUr.jpg",
+            "star":8
+        },
+        {
+            "ninja":"gay",
+            "name":"Maito Gay",
+            "power":15000,
+            "category":"UR",
+            "img":"MaitoGayUR.jpg",
+            "star":9
+        },
+        {
+            "ninja":"minato",
+            "name":"Minato Modo Kurama Edo Tensei",
+            "power":15000,
+            "category":"UR",
+            "img":"MinatoEdoKuramaUR.jpg",
+            "star":9
+        },
+        {
+            "ninja":"obito",
+            "name":"Obito Jinchuriki 10 colas",
+            "power":15000,
+            "category":"UR",
+            "img":"ObitoJinchurikiUR.jpg",
+            "star":13
+        },
+        {
+            "ninja":"kushina",
+            "name":"Kushina furiosa",
+            "power":15000,
+            "category":"UR",
+            "img":"KushinaLocaUr.jpg",
+            "star":10
+        },
+        {
+            "ninja":"itachi",
+            "name":"Itachi",
+            "power":8000,
+            "category":"SSR",
+            "img":"itachiSSR-1.png",
+            "star":11
+        },
+        {
+            "ninja":"madara",
+            "name":"Madara Uchiha Edo",
+            "power":8000,
+            "category":"SSR",
+            "img":"MadaraUchihaEdoTenseiSSR.jpg",
+            "star":12
+        },
+        {
+            "ninja":"garaa",
+            "name":"Garaa",
+            "power":8000,
+            "category":"SSR",
+            "img":"GaraaSSR.png",
+            "star":5
+        },
+        {
+            "ninja":"jiraiya",
+            "name":"Ero Senin",
+            "power":8000,
+            "category":"SSR",
+            "img":"EroSeninSSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"sasuke",
+            "name":"Sasuke Rinnegan",
+            "power":8000,
+            "category":"SSR",
+            "img":"sasukeRinneganSSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"shisui",
+            "name":"Shisui Uchiha",
+            "power":8000,
+            "category":"SSR",
+            "img":"shisuiSSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"rin",
+            "name":"Rin Jinchuriki",
+            "power":8000,
+            "category":"SSR",
+            "img":"RinJinchurikiSSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"kurenai",
+            "name":"Kurenai",
+            "power":8000,
+            "category":"SSR",
+            "img":"KurenaiSSR.png",
+            "star":5
+        },
+        {
+            "ninja":"izuna",
+            "name":"Izuna Uchiha",
+            "power":8000,
+            "category":"SSR",
+            "img":"izunaUchihaSSR.png",
+            "star":5
+        },
+        {
+            "ninja":"tobirama",
+            "name":"Tobirama Senju",
+            "power":8000,
+            "category":"SSR",
+            "img":"TobiramaSenjuSSR.png",
+            "star":5
+        },
+        {
+            "ninja":"hinata",
+            "name":"Hinata Chakra Kurama",
+            "power":8000,
+            "category":"SSR",
+            "img":"hinataChakraNarutoSSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"shikamaru",
+            "name":"Shikamaru Chakra Kurama",
+            "power":8000,
+            "category":"SSR",
+            "img":"shikamaruChakra9Colas.jpg",
+            "star":5
+        },
+        {
+            "ninja":"tsunade",
+            "name":"Tsunade Hokage",
+            "power":8000,
+            "category":"SSR",
+            "img":"TsunadeSSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"tobi",
+            "name":"Tobi [Obito Uchiha]",
+            "power":8000,
+            "category":"SSR",
+            "img":"Tobi-ObitoUchihaSSR.png",
+            "star":5
+        },
+        {
+            "ninja":"yamato",
+            "name":"Yamato",
+            "power":8000,
+            "category":"SSR",
+            "img":"YamatoSSR.png",
+            "star":5
+        },
+        {
+            "ninja":"kiba",
+            "name":"Kiba",
+            "power":8000,
+            "category":"SR",
+            "img":"KibaSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"hinata",
+            "name":"Hinata G.G.N",
+            "power":8000,
+            "category":"SR",
+            "img":"hinataWarSR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"orochimaru",
+            "name":"Orochimaru Ninja",
+            "power":8000,
+            "category":"SR",
+            "img":"OrochimaruNinjaSR.png",
+            "star":5
+        },
+        {
+            "ninja":"kakashi",
+            "name":"Kakashi Ero",
+            "power":8000,
+            "category":"SR",
+            "img":"KakashiEro.png",
+            "star":5
+        },
+        {
+            "ninja":"sasuke",
+            "name":"Sasuke Kid",
+            "power":4000,
+            "category":"R",
+            "img":"sasukeKid.png",
+            "star":5
+        },
+        {
+            "ninja":"kakashi",
+            "name":"Kakashi Kid",
+            "power":4000,
+            "category":"R",
+            "img":"kakashiKidR.jpg",
+            "star":5
+        },
+        {
+            "ninja":"sakura",
+            "name":"Sakura Kid",
+            "power":4000,
+            "category":"R",
+            "img":"SakuraR.jpg",
+            "star":5
+        }
+    ],
+    "herramientas":[
+        {
+            "tipo":"kunai",
+            "name": "kunai",
+            "power":[
+                {
+                    "ataque":1200,
+                    "hp":3000
+                }
+            ],
+            "grado":"gris"
+        }
+    ]
+}

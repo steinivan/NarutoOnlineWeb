@@ -1,0 +1,1 @@
+export { cardAdapter } from './card.adapter'
