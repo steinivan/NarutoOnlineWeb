@@ -41,5 +41,10 @@
     transform: rotate(360deg);
   }
 }
+.fondoHeader{
+  background-image: url("./assets/fondoheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
