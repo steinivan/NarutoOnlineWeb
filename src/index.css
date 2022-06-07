@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,body,#root{
+  height: 100%;
+  font-family: 'PT Serif', serif;
+}
 
 .App {
   text-align: center;
@@ -46,5 +50,41 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
+.footerBiblioteca{
+  background-image: url("./assets/fondoComplementarioBiblioteca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-fondoBiblioteca{
+  background-image: url("./assets/fondoCartaBiblioteca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.FondoKonoha{
+  background-image:url("./assets/fondoKonoha.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.FondoAdventure{
+  background-image: url("./assets/fondoCartaBiblioteca.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.SignIn{
+  background-image: url("./assets/SignInFondo.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  z-index: 51;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.z-100{
+  z-index:100;
+}
+.top-SR{
+  top: -25px;
+}

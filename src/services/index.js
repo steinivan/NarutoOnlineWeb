@@ -1,1 +1,1 @@
-export {cardApi} from './card.services'
+export {cardApi, myCardApi} from './card.services'

@@ -6,6 +6,7 @@ export const cardAdapter = (data) => {
         name: data.name,
         ninja: data.ninja,
         star: data.star,
-        category: data.category
+        category: data.category,
+        position:data?.position
     }
 } 

@@ -63,3 +63,19 @@
   }
   
 }
+.LockedCard{
+  /* z-30 w-20 absolute top-20 left-10 */
+  z-index: 21;
+  width:5rem;
+  position:absolute;
+  top:50%;
+  left:25%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(30, 41, 59, 0.5);
+  border-top:1px solid rgba(255, 159, 5, 0.5);
+  border-bottom:1px solid rgba(255, 159, 5, 0.5);
+  color:rgba(255, 159, 5, 0.9);
+  font-weight: 300;
+  font-family:'Times New Roman', Times, serif ;
+}

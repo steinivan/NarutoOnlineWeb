@@ -1,16 +1,42 @@
-import { useState, useContext, useEffect } from 'react';
+import { useState, useDispatch, useEffect } from 'react';
 import { cardApi } from '../services'
 import { AiFillStar } from 'react-icons/ai'
 import { GiSevenPointedStar } from 'react-icons/gi'
-export const cardSSR = (valor,category, product)=>{
-    return product.filter(function(e){
-        const nombre = e.name.toLocaleLowerCase()
-        const categoria = e.category.toLocaleLowerCase()
-            return categoria === category.toLocaleLowerCase()   
+import {useSelector} from 'react-redux'
+
+export const cardSSR = (valor,category)=>{
+
+
+
+    const product = cardApi()
+        if(valor==="full"){
+        return product.map(e=>{
+            return e
+        })
+    } 
+    if(valor=== "" || valor=== undefined) {
+
+        return product.filter(function(e){
+            const nombre = e.name.toLocaleLowerCase()
+            const categoria = e.category.toLocaleLowerCase()
+                return categoria === category.toLocaleLowerCase() 
+            });
+    }
+    if(category=== "" || category=== undefined) {
+
+        return product.filter(function(e){
+            const nombre = e.name.toLocaleLowerCase()
+                if(nombre === valor.toLocaleLowerCase())
+                return nombre === valor.toLocaleLowerCase() 
+            });
+    }
         // return nombre === valor.toLocaleLowerCase() && categoria === category.toLocaleLowerCase() || nombre === valor.toLocaleLowerCase() && category == ""
-    });
 }
 
+export const myCards = ()=>{
+    const state = useSelector(state=>state.cardReducer)
+    return state.Acount.card
+}
 
 
 export const StarCard = ({star})=>{
@@ -41,7 +67,7 @@ export const StarCard = ({star})=>{
         
     }
     return (
-        <div className={"flex absolute bottom-0 "+`${classCenter}`} >
+        <div className={"flex absolute bottom-0 "+`${classCenter}`} key={star}>
             {
                 arr.map(elem => elem)
             }

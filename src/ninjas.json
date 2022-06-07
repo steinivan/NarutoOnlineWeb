@@ -7,7 +7,8 @@
             "power":13000,
             "category":"UR",
             "img":"narutoUr-1.jpg",
-            "star":1
+            "star":1,
+            "position":"5px 8px"
         },
         {
             "id":1,
@@ -16,7 +17,8 @@
             "power":13000,
             "category":"UR",
             "img":"NarutoKuramaUR.png",
-            "star":2
+            "star":2,
+            "position":"6px 14px"
         },
         {
             "id":2,
@@ -25,7 +27,8 @@
             "power":13000,
             "category":"UR",
             "img":"KushinaKuramaSSR.jpg",
-            "star":3
+            "star":3,
+            "position":"6px 10px"
         },
         {
             "id":3,
@@ -34,7 +37,8 @@
             "power":13000,
             "category":"UR",
             "img":"ItachiEdoTenseiUR.jpg",
-            "star":4
+            "star":4,
+            "position":"5px 17px"
         },
         {
             "id":4,
@@ -43,7 +47,8 @@
             "power":13000,
             "category":"UR",
             "img":"KakashiSusanooUR.jpg",
-            "star":5
+            "star":5,
+            "position":"10px 12px"
         },
         {
             "ninja":"sasuke",
@@ -54,7 +59,8 @@
             "star":6,
             "ability":[
                 {"1":"sasukeUr-2.png"}
-                    ]
+                    ],
+            "position":"3px 7px"
         },
         {
             "ninja":"itachi",
@@ -62,7 +68,8 @@
             "power":15000,
             "category":"UR",
             "img":"itachiUr-1.png",
-            "star":7
+            "star":7,
+            "position":"12px 14px"
         },
         {
             "ninja":"indra",
@@ -70,7 +77,8 @@
             "power":15000,
             "category":"UR",
             "img":"IndraOtsutsukiUr.jpg",
-            "star":8
+            "star":8,
+            "position":"3px 14px"
         },
         {
             "ninja":"gay",
@@ -78,7 +86,8 @@
             "power":15000,
             "category":"UR",
             "img":"MaitoGayUR.jpg",
-            "star":9
+            "star":9,
+            "position":"7px 5px"
         },
         {
             "ninja":"minato",
@@ -86,7 +95,8 @@
             "power":15000,
             "category":"UR",
             "img":"MinatoEdoKuramaUR.jpg",
-            "star":9
+            "star":9,
+            "position":"12px 14px"
         },
         {
             "ninja":"obito",
@@ -94,7 +104,8 @@
             "power":15000,
             "category":"UR",
             "img":"ObitoJinchurikiUR.jpg",
-            "star":13
+            "star":13,
+            "position":"15px 15px"
         },
         {
             "ninja":"kushina",
@@ -102,7 +113,8 @@
             "power":15000,
             "category":"UR",
             "img":"KushinaLocaUr.jpg",
-            "star":10
+            "star":10,
+            "position":"5px 8px"
         },
         {
             "ninja":"itachi",
@@ -110,7 +122,8 @@
             "power":8000,
             "category":"SSR",
             "img":"itachiSSR-1.png",
-            "star":11
+            "star":11,
+            "position":"12px 14px"
         },
         {
             "ninja":"madara",
@@ -118,7 +131,8 @@
             "power":8000,
             "category":"SSR",
             "img":"MadaraUchihaEdoTenseiSSR.jpg",
-            "star":12
+            "star":12,
+            "position":"3px 14px"
         },
         {
             "ninja":"garaa",
@@ -126,7 +140,8 @@
             "power":8000,
             "category":"SSR",
             "img":"GaraaSSR.png",
-            "star":5
+            "star":5,
+            "position":"6px 14px"
         },
         {
             "ninja":"jiraiya",
@@ -134,7 +149,8 @@
             "power":8000,
             "category":"SSR",
             "img":"EroSeninSSR.jpg",
-            "star":5
+            "star":5,
+            "position":"6px 14px"
         },
         {
             "ninja":"sasuke",
@@ -142,7 +158,8 @@
             "power":8000,
             "category":"SSR",
             "img":"sasukeRinneganSSR.jpg",
-            "star":5
+            "star":5,
+            "position":"9px 14px"
         },
         {
             "ninja":"shisui",
@@ -150,7 +167,8 @@
             "power":8000,
             "category":"SSR",
             "img":"shisuiSSR.jpg",
-            "star":5
+            "star":5,
+            "position":"5px 14px"
         },
         {
             "ninja":"rin",
@@ -158,7 +176,8 @@
             "power":8000,
             "category":"SSR",
             "img":"RinJinchurikiSSR.jpg",
-            "star":5
+            "star":5,
+            "position":"8px 14px"
         },
         {
             "ninja":"kurenai",
@@ -166,7 +185,8 @@
             "power":8000,
             "category":"SSR",
             "img":"KurenaiSSR.png",
-            "star":5
+            "star":5,
+            "position":"12px 17px"
         },
         {
             "ninja":"izuna",
@@ -174,7 +194,8 @@
             "power":8000,
             "category":"SSR",
             "img":"izunaUchihaSSR.png",
-            "star":5
+            "star":5,
+            "position":"8px 14px"
         },
         {
             "ninja":"tobirama",
@@ -182,7 +203,8 @@
             "power":8000,
             "category":"SSR",
             "img":"TobiramaSenjuSSR.png",
-            "star":5
+            "star":5,
+            "position":"7px 14px"
         },
         {
             "ninja":"hinata",
@@ -190,7 +212,8 @@
             "power":8000,
             "category":"SSR",
             "img":"hinataChakraNarutoSSR.jpg",
-            "star":5
+            "star":5,
+            "position":"7px 6px"
         },
         {
             "ninja":"shikamaru",
@@ -198,7 +221,8 @@
             "power":8000,
             "category":"SSR",
             "img":"shikamaruChakra9Colas.jpg",
-            "star":5
+            "star":5,
+            "position":"6px 14px"
         },
         {
             "ninja":"tsunade",
@@ -206,7 +230,8 @@
             "power":8000,
             "category":"SSR",
             "img":"TsunadeSSR.jpg",
-            "star":5
+            "star":5,
+            "position":"6px 13px"
         },
         {
             "ninja":"tobi",
@@ -214,7 +239,8 @@
             "power":8000,
             "category":"SSR",
             "img":"Tobi-ObitoUchihaSSR.png",
-            "star":5
+            "star":5,
+            "position":"5px 18px"
         },
         {
             "ninja":"yamato",
@@ -222,7 +248,8 @@
             "power":8000,
             "category":"SSR",
             "img":"YamatoSSR.png",
-            "star":5
+            "star":5,
+            "position":"1px 17px"
         },
         {
             "ninja":"kiba",
@@ -230,7 +257,8 @@
             "power":8000,
             "category":"SR",
             "img":"KibaSR.jpg",
-            "star":5
+            "star":5,
+            "position":"-3px 8px"
         },
         {
             "ninja":"hinata",
@@ -238,7 +266,8 @@
             "power":8000,
             "category":"SR",
             "img":"hinataWarSR.jpg",
-            "star":5
+            "star":5,
+            "position":"8px 17px"
         },
         {
             "ninja":"orochimaru",
@@ -246,7 +275,8 @@
             "power":8000,
             "category":"SR",
             "img":"OrochimaruNinjaSR.png",
-            "star":5
+            "star":5,
+            "position":"11px 18px"
         },
         {
             "ninja":"kakashi",
@@ -254,7 +284,8 @@
             "power":8000,
             "category":"SR",
             "img":"KakashiEro.png",
-            "star":5
+            "star":5,
+            "position":"10px 12px"
         },
         {
             "ninja":"sasuke",
@@ -262,7 +293,8 @@
             "power":4000,
             "category":"R",
             "img":"sasukeKid.png",
-            "star":5
+            "star":5,
+            "position":"6px 14px"
         },
         {
             "ninja":"kakashi",
@@ -270,7 +302,8 @@
             "power":4000,
             "category":"R",
             "img":"kakashiKidR.jpg",
-            "star":5
+            "star":5,
+            "position":"-1px 9px"
         },
         {
             "ninja":"sakura",
@@ -278,7 +311,8 @@
             "power":4000,
             "category":"R",
             "img":"SakuraR.jpg",
-            "star":5
+            "star":5,
+            "position":"4px 14px"
         }
     ],
     "herramientas":[
