@@ -22,7 +22,7 @@ function NinjasBiblioteca(){
             setChange(true)
         } else {
             setCards(<ComponentBiblioteca/>)
-            setChange(false)
+            setChange(false)giT
         }
     }
 
