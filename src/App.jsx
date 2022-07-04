@@ -10,8 +10,7 @@ import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 function App() {
   const state = useSelector(state => state.cardReducer.AcountOnline)
-  // const login = state
-  const login = true
+  const login = state
   return (
     <>
           <BrowserRouter>

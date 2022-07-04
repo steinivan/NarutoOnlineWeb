@@ -30,7 +30,6 @@ export const cardSSR = (valor,category)=>{
                 return nombre === valor.toLocaleLowerCase() 
             });
     }
-        // return nombre === valor.toLocaleLowerCase() && categoria === category.toLocaleLowerCase() || nombre === valor.toLocaleLowerCase() && category == ""
 }
 
 export const myCards = ()=>{

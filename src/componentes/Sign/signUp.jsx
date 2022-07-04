@@ -21,8 +21,8 @@ import { useNavigate } from "react-router-dom";
     const ValidateSignIn = (values) => {
         let stateAcountName = stateBaseDatos.find(element=> element.name === values.name) 
         let stateAcountEmail = stateBaseDatos.find(element=> element.email === values.email) 
-        if(stateAcountName!== undefined) {stateAcountName = "Ya existe"}
-        if(stateAcountEmail!== undefined) {stateAcountEmail = "Ya existe"}
+        if(stateAcountName!== undefined) {stateAcountName = "Ya existe"} else {stateAcountName = "Valido"}
+        if(stateAcountEmail!== undefined) {stateAcountEmail = "Ya existe"} else {stateAcountEmail = "Valido"}
         const arrayErrors = [stateAcountName,stateAcountEmail]
         return arrayErrors
     }
@@ -42,10 +42,19 @@ import { useNavigate } from "react-router-dom";
         onSubmit={(values)=>{
             const AcountValidate = ValidateSignIn(values)
             console.log(AcountValidate)
-            if (AcountValidate!=='NotUser'){console.log("fail")}
+            if (AcountValidate[0]==='Ya existe' && AcountValidate[1]==='Ya existe'){console.log("Ya existe el mail o username")}
             else{
+                const objectC = {card:[],expP:0,
+                    scrollNormal:10,
+                    scrollAtributes:10,
+                    GuarantedSSR1:{pos:0,src:null,name:null,position:null},
+                    GuarantedSSR2:{pos:1,src:null,name:null,position:null},
+                    GuarantedSR:{pos:2,src:null,name:null,position:null}
+                    }
                 navigate('/home')
-                dispatch(SignUpAction(values))
+                const objectAcount = Object.assign(objectC, values)
+                console.log(objectAcount)
+                dispatch(SignUpAction(objectAcount))
                 dispatch(AcountOnAction(true))
             }
         }}

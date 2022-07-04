@@ -74,7 +74,7 @@ function headerUser({typeH}){
                     </ContainerMoney>
                     <ContainerMoney width={7} margin={12}>
                         <ImgGem src={gemImg}/>
-                        <p>2.000</p>
+                        <p>2.00</p>
                     </ContainerMoney>
                 </div>
             </div>
@@ -91,7 +91,7 @@ function headerUser({typeH}){
                 <ContainerValues>
                     <ContainerMoney margin={0} width={6}>
                         <ImgGem src={gemImg} alt="gem"/>
-                        <p>2.000</p>
+                        <p>200</p>
                     </ContainerMoney>
                     <ContainerMoney margin={0} width={5}>
                         <ImgGem src={scrollBrownImg} alt="scroll"/>

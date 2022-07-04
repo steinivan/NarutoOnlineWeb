@@ -3,25 +3,34 @@ const INITIAL_STATE = {
     {name:"Ivan",password:"1ac"},
     {name:"Lautaro",password:"12ac"},
     {name:"Agustin",password:"123ac"},
-    {name:"Patricio",password:"1234acADMIN",expP:0,card:[
-        {name:"Kakashi Ero"}
-    ]},
-    ],
-    card:[],
-    nivel:1,
-    // Acount:'NotUser',
-    Acount:{name:"Patricio",password:"1234acADMIN",expP:0,
+    {name:"Admin",password:"admin1234",expP:0,
         card:[
-            {name:"Kakashi Ero"},
-            {name:"Hinata Chakra Kurama"},
-            {name:"Ero Senin"},
+            {name:"Kakashi Ero",key:0},
+            {name:"Hinata Chakra Kurama",key:0},
+            {name:"Ero Senin",key:0},
         ],
-        scrollNormal:12,
-        scrollAtributes:10,
+        scrollNormal:500,
+        scrollAtributes:500,
         GuarantedSSR1:{pos:0,src:null,name:null,position:null},
         GuarantedSSR2:{pos:1,src:null,name:null,position:null},
         GuarantedSR:{pos:2,src:null,name:null,position:null}
     },
+    ],
+    card:[],
+    nivel:1,
+    Acount:'NotUser',
+    // Acount:{name:"Patricio",password:"1234acADMIN",expP:0,
+    //     card:[
+    //         {name:"Kakashi Ero",key:0},
+    //         {name:"Hinata Chakra Kurama",key:0},
+    //         {name:"Ero Senin",key:0},
+    //     ],
+    //     scrollNormal:500,
+    //     scrollAtributes:500,
+    //     GuarantedSSR1:{pos:0,src:null,name:null,position:null},
+    //     GuarantedSSR2:{pos:1,src:null,name:null,position:null},
+    //     GuarantedSR:{pos:2,src:null,name:null,position:null}
+    // },
     AcountOnline:false,
     Exp:0,
     levels:[
@@ -93,7 +102,9 @@ export const cardReducer = (state= INITIAL_STATE ,action)=>{
                     ...state.Acount,
                         card:[
                             ...state.Acount.card,{
-                            name:action.peyload}
+                            name:action.peyload.name,
+                            key:action.peyload.key
+                        }
                         ]
                 }
             }

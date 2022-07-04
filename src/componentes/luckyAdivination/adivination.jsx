@@ -2,12 +2,13 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Bg,Button,ContainerGuaranted,DivGuaranted,DivGuarantedSelect,ContainDivGuarantedSelect,ContainDivGuarantedSelected,
     ImgGuaranted,ContainerSelect,ContainerGuarantedSelect, BgContainerSelect,GuarantedSelectSSR,
     GuarantedInput,DivGuarantedInput } from './styled'
-import {cardApi} from '../../services'
+import {cardApi, myCardApi} from '../../services'
 import {addToCard, reductionScrollNormal, GuarantedCard1,GuarantedCard2,GuarantedCard3} from '../../redux/actions/cardAccion'
 import { useEffect, useState } from 'react'
 
 const Adivination = ()=>{
     const cards = cardApi()
+    const myCards = myCardApi()
     const state = useSelector(state=>state.cardReducer)
     const dispatch = useDispatch()
     const stateScrollNormal = state.Acount.scrollNormal
@@ -22,11 +23,11 @@ const Adivination = ()=>{
     const [typeSSR,setTypeSSR] = useState(null)
 
     const [arrayAction,setArrayAction] = useState([{pos:0,name:null,src:null},{pos:1,name:null,src:null},{pos:2,name:null,src:null}])
+   
     useEffect(()=>{
 
     },[])
-    
-
+    let arrayCardKeysAdd=[]
     function scrollCondition(num){
         const arrayCardNumber = []
         if(stateScrollNormal>=num){
@@ -56,10 +57,24 @@ const Adivination = ()=>{
             let rand = Math.floor((Math.random() * max))
             return elem[rand]
         })
-        sortCards.map(elem=>{
-            return dispatch(addToCard(elem.name)) 
+        sortCards.map((elem,index)=>{
+            let numCard = 0
+            const totalCardRepeatF = ()=>{
+                for (let i = 0; i < arrayCardKeysAdd.length; i++) {
+                    if(elem.name===arrayCardKeysAdd[i]){
+                        numCard++
+                    }
+                }
+            } 
+            // console.log(elem)
+            const totalCardRepeat = myCards.forEach(elemCard=>{if(elemCard.name===elem.name){numCard++}})
+            totalCardRepeat
+            totalCardRepeatF()
+            // console.log(numCard,sortCards)
+            arrayCardKeysAdd.push(elem.name)
+            return dispatch(addToCard({name:elem.name,key:numCard})) 
         })
-        
+        arrayCardKeysAdd=[]
     }
     
 }
@@ -161,7 +176,7 @@ const Adivination = ()=>{
                 <div className='justify-between'>
                     <Button onClick={()=>{scrollCondition(1)}}>summon x1</Button>
                     <Button onClick={()=>{scrollCondition(10)}}>summon x10</Button>
-                    <button onClick={()=>{console.log(stateAcount)}}>Info</button>
+                    <button onClick={()=>{console.log(stateAcount.card) }}>Info</button>
 
                 </div>
             </div>

@@ -13,5 +13,4 @@ const Sign = () => {
     )
 }
 
-{/* <SignIn/> */}
 export default Sign

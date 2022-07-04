@@ -10,14 +10,14 @@ function Home(){
     const STATE = useSelector(state=>state.cardReducer)
     const StateOn = (STATE.AcountOnline[0])
     const dispatch = useDispatch()
-    
+    console.log(STATE)
     
     return(
         <div className="h-full FondoKonoha ">
             <HeaderUser typeH={"HeaderUser"}/>
             <div className="pt-12">
-                <h1>Hi Ninja de mrda</h1>
-            <button onClick={()=>{ dispatch(aumentarExp(500))}}>win</button>
+
+            <button className='text-2xl bg-yellow-600 p-4 rounded-xl mt-5' onClick={()=>{ dispatch(aumentarExp(500))}}>Exp +</button>
             </div>
             <FooterUser typeF={"FooterUser"}/>
         </div>

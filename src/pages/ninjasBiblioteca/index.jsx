@@ -11,7 +11,7 @@ function NinjasBiblioteca(){
     let classNinja = `${change ? 'h-14 w-20 pt-2 mr-5 flex justify-center rounded-b-md bg-orange-400' : 'h-10 w-20 pt-2 mr-5 flex justify-center rounded-b-md bg-cyan-600'}`
     let classBiblioteca = `${change ? 'h-10 w-20 pt-2 mr-5 flex justify-center rounded-b-md bg-cyan-600' : 'h-14 w-20 pt-2 mr-5 flex justify-center rounded-b-md bg-orange-400'}`
     useEffect(()=>{
-        setProduct(cardApi())
+        // setProduct(cardApi())
         setCards(<ComponentNinjas/>)
     },[])
     // console.log(cards)
@@ -22,7 +22,7 @@ function NinjasBiblioteca(){
             setChange(true)
         } else {
             setCards(<ComponentBiblioteca/>)
-            setChange(false)giT
+            setChange(false)
         }
     }
 
